@@ -32,6 +32,7 @@ for idx in range(6):
     client.setCarControls(car_controls)
     print("Go Forward, steer right")
     time.sleep(3.5)   # let car drive a bit
+    # 60도씩 회전하도록 3.5 timesleep
 
     # apply brakes
     car_controls.brake = 1
